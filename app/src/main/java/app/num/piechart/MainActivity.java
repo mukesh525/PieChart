@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mainLayout = (LinearLayout) findViewById(R.id.mainLayout);
-        setPieChart();
-      //  setBarChart();
+       // setPieChart();
+        setBarChart();
     }
 
     private void setBarChart() {
